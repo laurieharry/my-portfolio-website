@@ -12,7 +12,8 @@
 
 .links {
   display: flex;
-  background-color: blueviolet;
+  border-style: solid;
+  background-color: darkseagreen;
   width: 150px;
   margin: 10px;
   text-align: center;

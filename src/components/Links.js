@@ -6,8 +6,15 @@ class Links extends Component {
   render() {
     return (
       <div className="container2">
-        <span className="links">LinkedIn</span>
-        <span className="links">GitHub</span>
+        <a
+          className="links"
+          href="https://www.linkedin.com/in/laurence-harrison-21588a165/"
+        >
+          LinkedIn
+        </a>
+        <a className="links" href="https://github.com/laurieharry/">
+          GitHub
+        </a>
       </div>
     );
   }
