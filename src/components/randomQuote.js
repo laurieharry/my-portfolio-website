@@ -2,6 +2,13 @@ import React, { Component } from "react";
 
 class RandomQuote extends Component {
   state = {};
+  constructor(props) {
+    super(props);
+    this.getQuote = this.getQuote.bind(this);
+  }
+
+  getQuote() {}
+
   render() {
     return (
       <div id="quotebox">
