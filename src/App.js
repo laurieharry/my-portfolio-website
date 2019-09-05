@@ -4,6 +4,7 @@ import AboutMe from "./components/AboutMe";
 import Intro from "./components/Intro";
 import Project from "./components/Project";
 import Links from "./components/Links";
+import RandomQuote from "./components/randomQuote";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <p>
         here's a bit of text to go at the bottom of the page for some reason
       </p>
+      <RandomQuote />
     </div>
   );
 }
