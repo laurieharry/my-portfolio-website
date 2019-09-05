@@ -23,7 +23,6 @@ function App() {
       <p>
         here's a bit of text to go at the bottom of the page for some reason
       </p>
-      <Links></Links>
     </div>
   );
 }
