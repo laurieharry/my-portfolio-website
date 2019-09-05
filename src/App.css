@@ -31,6 +31,11 @@
   margin-top: 20px;
 }
 
+.background {
+  background-image: url(Backgrounds/light_honeycomb/light_honeycomb_@2X.png);
+  /* Background pattern from Toptal Subtle Patterns */
+}
+
 .projects {
   display: flex;
   flex-direction: row;
