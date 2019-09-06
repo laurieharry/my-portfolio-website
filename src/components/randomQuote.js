@@ -6,13 +6,13 @@ class RandomQuote extends Component {
     super(props);
     this.getQuote = this.getQuote.bind(this);
     this.state = {
-      quote: "Zzzzzzzz",
+      quote: "I wanna SHIT!",
       author: "Andrea Yu"
     };
   }
 
   getQuote() {
-    console.log("getQuote worked!");
+    this.setState({ quote: (this.setState.quote = "You smell so good!") });
   }
 
   render() {
