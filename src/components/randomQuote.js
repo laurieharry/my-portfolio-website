@@ -28,7 +28,7 @@ class RandomQuote extends Component {
       <div id="quotebox">
         <h1 id="text">{this.state.quote}</h1>
         <h2 id="author">- {this.state.author}</h2>
-        <button id="new-quote" onClick={this.getQuote}>
+        <button id="new-quote" className="button" onClick={this.getQuote}>
           Click me to get some very profound quotes!
         </button>
       </div>
