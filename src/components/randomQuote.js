@@ -8,14 +8,18 @@ class RandomQuote extends Component {
   constructor(props) {
     super(props);
     this.getQuote = this.getQuote.bind(this);
+    let x = Math.floor(Math.random() * quotes.quotes.length);
     this.state = {
-      quote: "I wanna SHIT!",
-      author: "Andrea Yu"
+      quote: quotes.quotes[x].quote,
+      author: quotes.quotes[x].author
     };
   }
 
   getQuote() {
-    this.setState({ quote: (this.setState.quote = quotes.quotes[0].quote) });
+    let x = Math.floor(Math.random() * quotes.quotes.length);
+    this.setState({ quote: (this.setState.quote = quotes.quotes[x].quote) });
+    this.setState({ author: (this.setState.quote = quotes.quotes[x].author) });
+
     //console.log(quotes.quotes[1]);
   }
 
