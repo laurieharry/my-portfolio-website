@@ -1,20 +1,36 @@
 {
   "quotes": [
     {
-      "quote": "testquote1",
+      "quote": "Zzzzzzzzzzzzz",
       "author": "Andrea Yu"
     },
     {
-      "quote": "testquote2",
-      "author": "salkdg"
+      "quote": "You're my only grandson!",
+      "author": "Grandma"
     },
     {
-      "quote": "test3",
-      "author": "bobbo"
+      "quote": "There's nothing worse than spilled milk!",
+      "author": "Mum"
     },
     {
-      "quote": "test4",
-      "author": "bily"
+      "quote": "I'll be back",
+      "author": "Arnie"
+    },
+    {
+      "quote": "It wasn't me",
+      "author": "Shaggy"
+    },
+    {
+      "quote": "Here's another of my best quotes",
+      "author": "Me"
+    },
+    {
+      "quote": "There is no starting or stopping, only doing..",
+      "author": "Socrates/Nick Nolte in Peaceful Warrior (2006)"
+    },
+    {
+      "quote": "Checkout my sweet quote generator!",
+      "author": "Me"
     }
   ]
 }
