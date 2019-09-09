@@ -1,18 +1,20 @@
-[
-  {
-    "quote": "Zzzzzz",
-    "author": "Andrea Yu"
-  },
-  {
-    "quote": "Zzzzzz",
-    "author": "Andrea Yu"
-  },
-  {
-    "quote": "Zzzzzz",
-    "author": "Andrea Yu"
-  },
-  {
-    "quote": "Zzzzzz",
-    "author": "Andrea Yu"
-  }
-]
+{
+  "quotes": [
+    {
+      "quote": "testquote1",
+      "author": "Andrea Yu"
+    },
+    {
+      "quote": "testquote2",
+      "author": "salkdg"
+    },
+    {
+      "quote": "test3",
+      "author": "bobbo"
+    },
+    {
+      "quote": "test4",
+      "author": "bily"
+    }
+  ]
+}

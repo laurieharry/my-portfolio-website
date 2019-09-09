@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import quotes from "./quotes.json";
+
+//let newQ = JSON.stringify(quotes);
 
 class RandomQuote extends Component {
   state = {};
@@ -12,7 +15,8 @@ class RandomQuote extends Component {
   }
 
   getQuote() {
-    this.setState({ quote: (this.setState.quote = "You smell so good!") });
+    this.setState({ quote: (this.setState.quote = quotes.quotes[0].quote) });
+    //console.log(quotes.quotes[1]);
   }
 
   render() {
