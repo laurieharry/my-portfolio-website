@@ -40,11 +40,6 @@
   width: 100%;
 }
 
-.randomQuote {
-  display: flex;
-  width: 100%;
-}
-
 .button {
   background-color: #7a4caf;
   border: none;

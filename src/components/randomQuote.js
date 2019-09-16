@@ -25,7 +25,7 @@ class RandomQuote extends Component {
 
   render() {
     return (
-      <div id="quotebox">
+      <div id="quotebox" className="container">
         <h1 id="text">{this.state.quote}</h1>
         <h2 id="author">- {this.state.author}</h2>
         <button id="new-quote" className="button" onClick={this.getQuote}>
